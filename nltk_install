@@ -1,0 +1,9 @@
+# install module 
+pip install nltk
+
+# Download wordlist you want
+python -m nltk.downloader twitter_samples 
+
+# import in code 
+from nltk.corpus import twitter_samples
+
